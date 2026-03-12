@@ -144,5 +144,7 @@ Just like your mobile phone or electricity bill, utility computing offers a rang
 Think about a small startup company launching a new mobile app.
 * Instead of spending $50,000 to buy physical servers and put them in a closet, they use a utility computing service (like Amazon Web Services or Google Cloud).
 * In month one, they only have 100 users, so their "utility bill" for server usage is only $10.
-* In month two, their app goes viral and hits 1 million users! The service provider automatically turns the "tap" on to give them more computing power so the app doesn't crash. Their bill for month two goes up to $1,000, but they only paid for exactly what they consumed.
+* In month two, their app goes viral and hits 1 million users! The service provider automatically turns the "tap" on to give them more computing power so the app doesn't crash. Their bill for month two goes up to $1,000, but they only paid for exactly what they consumed.  
+
+
 
