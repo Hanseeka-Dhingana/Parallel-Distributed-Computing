@@ -94,19 +94,13 @@ Because of how they are built, clusters offer some massive advantages:
 * **High Performance:** Combining all these machines simply gives you massive, supercomputer-level computing power.
 
 
-Let's jump into **Part 3: Grid Computing**.
-
-The best way to understand Grid Computing is to think about the electrical grid. When you plug your phone charger into the wall, you don't know (or care) if the electricity came from a solar farm in Sindh or a dam up north. You just want power. Grid computing does the exact same thing, but for computer processing power and storage!
-
-Here is the simple breakdown based on your slides:
-
 ### What is Grid Computing?
 Grid computing links together computing resources (like PCs, servers, and storage) to create a single, massive "virtual" computer.
 * **How it works:** Users access processing power, network bandwidth, and storage capacity without needing to know where the hardware is actually located or what operating systems are running.
 * **The Magic Trick (Scavenging):** One of the coolest parts of a grid is that it harnesses the *unused processing cycles* of regular computers in a network.
 * *Real-Life Example:* Imagine an office with 1,000 desktop computers. At 5:00 PM, everyone goes home, but the computers stay on. A Grid Computing system will "borrow" the processing power of those 1,000 sleeping computers overnight to solve a massive scientific math problem!
 
-#### 1. The Need for Grid Computi*ng
+#### 1. The Need for Grid Computing
 * **Complex Science & Research:** Modern science relies heavily on deep data analysis, massive computations, and collaboration.
 * **Cost Effectiveness:** Running a computer simulation on a grid is much cheaper than building real-world physical experiments.
 * **Speed & Accuracy:** Problems in engineering and science are getting incredibly complex. We need highly accurate solutions in the shortest possible time.
@@ -147,4 +141,150 @@ Think about a small startup company launching a new mobile app.
 * In month two, their app goes viral and hits 1 million users! The service provider automatically turns the "tap" on to give them more computing power so the app doesn't crash. Their bill for month two goes up to $1,000, but they only paid for exactly what they consumed.  
 
 
+---
 
+
+## Core Definitions of Cloud Computing
+* **Oxford Dictionary:** The practice of using remote servers hosted on the internet to store, manage, and process data instead of a local server.
+
+* **NIST Definition:** A model for enabling ubiquitous, on-demand network access to a shared pool of configurable computing resources (networks, servers, storage, etc.) that can be rapidly provisioned with minimal effort.
+
+
+## Cloud vs. On-Premise Computing
+This highlight why businesses are shifting to the cloud by comparing it to traditional on-premise setups:
+
+* **Cost & Scalability:** On-premise requires higher pay and offers less scalability, while cloud follows a "pay-for-what-you-use" model.
+
+* **Maintenance:** Cloud removes the need for physical server space and dedicated hardware maintenance teams.
+
+* **Security & Recovery:** Cloud typically offers better data security and more reliable disaster recovery compared to on-premise systems.
+
+* **Flexibility:** Cloud allows teams to collaborate from widespread locations with rapid implementation times.
+
+
+## Essential Characteristics 
+1. **On-demand self-service:** Users can get resources without human intervention.
+
+2. **Ubiquitous network access:** Resources are accessible from anywhere over the internet.
+
+3. **Location-independent resource pooling:** Providers share resources across many customers.
+
+4. **Rapid elasticity:** Resources can be scaled up or down quickly as needed.
+
+5. **Measured service:** Users only pay for what they consume (Utility-based).
+
+## Cloud Models
+The categorizes the cloud into two main frameworks:
+### 1. Deployment Models
+* **Public Cloud:** Owned by a provider and made available to the general public (e.g., AWS, Azure).
+
+* **Private Cloud:** Operated exclusively for a single organization.
+
+* **Hybrid Cloud:** A combination of public and private functionalities.
+
+### 2. Service Models
+
+* **IaaS (Infrastructure as a Service):** Provides basic computing infrastructure like virtual machines (e.g., Amazon EC2, Google Compute Engine).
+
+
+* **PaaS (Platform as a Service):** Provides a platform for developers to build, test, and manage applications (e.g., Google App Engine, Azure).
+
+
+* **SaaS (Software as a Service):** Subscription-based software hosted by a vendor (e.g., Office 365, Google Apps).
+
+## Advantages and Disadvantages
+
+| **Advantages** | **Disadvantages / Concerns** |
+| --- | --- |
+| Lower computer and software costs |Requires constant, high-speed internet |
+| Improved performance and boot speeds |Potential security and data loss risks |
+| Unlimited storage capacity |Limited features in some web-based apps |
+|Easier group collaboration |Lack of standard APIs between providers |  
+
+
+## Typical Computing Patterns
+The four typical computing patterns based on how much computer power (Compute) a business needs over time.
+### 1. On and Off Workloads (Batch Jobs)
+* **The Concept:** Your business only needs heavy computing power for a short, specific amount of time (like running batch jobs), followed by periods of complete inactivity.
+
+* **The On-Premise Problem:** If you buy your own servers, you are paying for them 24/7. When they are "off," you are suffering from **wasted capacity**. Plus, buying and setting up these servers takes a long time, meaning your **time to market can be cumbersome**.
+
+* **Real-Life Example:** An accounting firm that only needs massive computing power on the 30th of every month to process payroll.
+* **The Cloud Fix:** You simply turn the cloud servers "on" for payroll day, pay for those 24 hours, and turn them "off" when you are done.
+
+### 2. Rapid Growth
+* **The Concept:** Your business is taking off and growing incredibly fast, meaning your need for computing power is constantly shooting upward.
+
+* **The On-Premise Problem:** It becomes a **major challenge for the IT department to keep up with growth** because buying and installing physical servers takes months. If the servers can't handle the new users, the system crashes, leading to **potential customer service problems** and a **potential loss of business opportunity**.
+
+* **Real-Life Example:** A brand new social media app that suddenly goes viral and gets a million new sign-ups in a week.
+* **The Cloud Fix:** In the cloud, you can just click a button to add more servers instantly as your user base grows.
+
+### 3. Unpredictable Bursting
+* **The Concept:** Your daily traffic is usually flat, but out of nowhere, you get an **unexpected peak in demand**.
+
+* **The On-Premise Problem:** You are trapped. If you didn't buy enough backup servers, your site crashes and you suffer a **loss of business opportunity**. If you panic and buy a ton of expensive backup servers *just in case*, you end up with **wasted capacity if demand wanes** (goes back to normal).
+
+* **Real-Life Example:** A small clothing website that suddenly gets mentioned by a massive celebrity on a late-night talk show, causing thousands of people to visit the site at exactly midnight.
+* **The Cloud Fix:** Cloud Auto-scaling. The cloud automatically detects the sudden traffic spike, spins up extra servers for the 3 hours you need them, and deletes them when the traffic leaves.
+
+### 4. Predictable Bursting
+* **The Concept:** You have **seasonal peaks and troughs** in your traffic. Unlike the previous pattern, you know exactly *when* the spikes are going to happen.
+
+* **The On-Premise Problem:** This creates the **"Provisioning dilemma"**. Do you buy enough physical servers to handle the peak, resulting in **wasted capacity** for the other 11 months of the year? Or do you save money by buying fewer servers, resulting in a **loss of business** because your site crashes during your busiest season?
+
+* **Real-Life Example:** A flower delivery website (massive spike on Valentine's Day and Mother's Day) or an e-commerce store during Black Friday.
+* **The Cloud Fix:** You run a small number of cloud servers normally, and pre-schedule a massive expansion of servers specifically for the week of Black Friday, paying only for the extra power during that week.
+
+
+
+## Technical Disadvantages of Cloud Computing
+### **1. Limitations with Supercomputing (HPC)**
+* **The Concept:** It is not entirely clear if you can efficiently run compute-intensive High-Performance Computing (HPC) applications that rely on specific frameworks like MPI or OpenMP in the cloud.
+
+
+* **Simple Explanation:** Standard cloud servers are amazing at hosting websites or storing files. However, if a scientist needs to run a massive, highly complex mathematical simulation (like modeling a hurricane or rendering a 3D movie), standard cloud servers might struggle. They aren't always wired together in the ultra-fast, specialized way that supercomputers are.
+* **Real-Life Example:** Imagine renting a standard delivery van to compete in a Formula 1 race. The van is highly useful for everyday tasks, but it isn't built for specialized, extreme-performance racing.
+
+### **2. The "Vendor Lock-In" Problem (Different APIs)**
+* **The Concept:** Each cloud system uses different protocols and different APIs (Application Programming Interfaces). Because of this, it may not be possible to seamlessly run applications between different cloud-based systems.
+
+
+* **Simple Explanation:** Amazon (AWS), Microsoft (Azure), and Google (GCP) all built their clouds differently. They don't speak the exact same technical language. If you build your company's software to work perfectly on Amazon's cloud, you can't just copy and paste it over to Microsoft's cloud if you find a cheaper price there.
+* **Real-Life Example:** It is like buying a video game for a Sony PlayStation. If you later decide to buy a Microsoft Xbox, you can't just put your PlayStation disc into the Xbox. The systems do the exact same job, but they speak different languages.
+
+
+### **3. Forced Adaptation (Proprietary Systems)**
+* **The Concept:** Cloud providers often build custom, proprietary tools. For instance, Amazon created its own database system (which doesn't use the standard SQL 92) and its own workflow systems. Therefore, your normal applications will have to be adapted to execute on these specific platforms.
+
+
+* **Simple Explanation:** When you run servers in your own office, you usually build software using universally standard tools. But when you move to the cloud, providers want you to use *their* custom-built tools because they run faster on their specific hardware. To make your existing software work, your programmers have to spend a lot of time rewriting the code to fit the cloud provider's unique rules.
+* **Real-Life Example:** Imagine moving your business to a new country that uses a completely different alphabet and currency. You can still do business there, but you have to spend a lot of time and money translating your signs, menus, and price tags before you can open your doors.
+
+## Data Security risk in the cloud
+- Data security
+- Data privacy
+- Data loss
+- Account hijacking
+- Insecure APIs
+- Insider threats
+These problems occur because data and services are stored remotely and accessed through the internet.
+
+## What is the Service Level Agreement (SLA)?
+SLA is a formal contract between a cloud service provider (CSP) and the customer that defines that level of service expected from the provider.
+
+### Why is SLA used?
+1) Clarity of Expectations
+2) Reliability Assurance
+3) Accountability
+4) Customer Trust
+5) Business Continuity
+  
+### Key Components of an SLA
+- Service Availability (Uptime)
+- Performance Metrics (response times or applications, speed of data transfer, or API responsiveness)
+- Support and Response Times
+- Data Security and Privacy (encryption, backups, and compliance standards)
+- Data Backup and Recovery
+- Penalies for Non-Compliance
+- Termination Terms 
